@@ -177,21 +177,6 @@ export default function Content() {
       const response = await axios.post("/api/geminiai", { question: text });
       console.log(response);
       
-      // const res = await fetch("https://api.openai.com/v1/", {
-      //   method: "POST",
-      //   headers: {
-      //     "Content-Type": "application/json",
-      //     
-      //   },
-      //   body: JSON.stringify({
-      //     model: "gpt-4.0",
-      //     messages: [{ role: "user", content: text }],
-      //     max_tokens: 100,
-      //   }),
-      // });
-
-      // const data = await res.json();
-      // setResponse(data.choices[0].message.content);
       setMessages((prevMessages) => [
         ...prevMessages,
         {

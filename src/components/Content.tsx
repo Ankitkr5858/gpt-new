@@ -181,7 +181,7 @@ export default function Content() {
       //   method: "POST",
       //   headers: {
       //     "Content-Type": "application/json",
-      //     "Authorization": `Bearer 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`,
+      //     
       //   },
       //   body: JSON.stringify({
       //     model: "gpt-4.0",
